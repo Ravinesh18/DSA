@@ -40,10 +40,10 @@ int main()
     h.arr[2] = 30;
     h.arr[3] = 40;
     h.arr[4] = 50;
-    h.size = 5;
+    h.size = 4;
     cout << "Pritning the Heap Elements : " << endl;
 
-    for (int i = 0; i < h.size; i++)
+    for (int i = 0; i <=h.size; i++)
     {
         cout << h.arr[i] << " ";
     }
